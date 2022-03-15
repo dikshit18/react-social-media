@@ -1,0 +1,32 @@
+.vertical-slider.container {
+    margin: 20px 0;
+    display: inline-flex;
+    flex-direction: column;
+    width: 320px;
+    /* left: 0; */
+    position: absolute;
+}
+
+.vertical-slider .heading {
+    color: rgb(44, 62, 80);
+}
+.position-right{
+ right: 0 !important;
+}
+.position-left {
+    left: 0 !important;
+}
+.vertical-slider .items {
+    height: 765px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-top: -13px;
+    box-shadow: 0 1px 3px #888;
+}
+
+.vertical-slider .items > .col:first-child .card {
+    margin-top:0 !important
+}
